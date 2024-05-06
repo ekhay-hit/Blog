@@ -4,6 +4,8 @@ const titleInput = document.querySelector("#title");
 const contentInput = document.querySelector("#content");
 const submitBtn = document.querySelector("#btn");
 
+// selector for backgroun theme selector
+const bgMode = document.querySelector(".mode");
 const blogArry = [];
 
 function storeBlog(){
@@ -32,3 +34,11 @@ storeBlog();
   titleInput.value ='';
   contentInput.value = '';
 });
+
+
+// implementation to back ground mode.
+
+bgMode.addEventListener('click', function(){
+    
+})
+
