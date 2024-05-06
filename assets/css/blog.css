@@ -42,13 +42,14 @@ footer{
     display: flex;
     flex-direction: column;
     gap:1em;
+    height: 90vh;
     /* justify-content: center; */
     /* flex-direction: ; */
     /* flex-wrap: wrap; */
     padding: 10px 50px;
     align-content: flex-start;
     width: 100%;
-    background-color: rgb(238, 231, 245);
+    /* background-color: rgb(238, 231, 245); */
     
  }
 
@@ -56,6 +57,8 @@ footer{
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    background-color: red;
+    height: 100px;
 
  .blog-Title{
     display: flex;
