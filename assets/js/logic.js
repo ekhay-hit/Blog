@@ -5,7 +5,11 @@ const contentInput = document.querySelector("#content");
 const submitBtn = document.querySelector("#btn");
 
 // selector for backgroun theme selector
-const bgMode = document.querySelector(".mode");
+const modeSwitcher = document.querySelector(".modeSwitcher");
+const body = document.querySelector("#bodyId");
+let mode = 'light';
+
+
 const blogArry = [];
 
 function storeBlog(){
@@ -38,7 +42,15 @@ storeBlog();
 
 // implementation to back ground mode.
 
-bgMode.addEventListener('click', function(){
-    
+modeSwitcher.addEventListener('click', function(){
+    if (mode === 'dark') {
+        mode = 'light';
+        body.setAttribute('class', 'light');
+      }
+      // If mode is light, apply dark background
+      else {
+        mode = 'dark';
+        body.setAttribute('class', 'dark');
+      }
 })
 
