@@ -1,4 +1,4 @@
-const form = document.getElementById("form-id");
+// const form = document.getElementById("form-id");
 const userNameInput = document.querySelector("#user-name");
 const titleInput = document.querySelector("#title");
 const contentInput = document.querySelector("#content");

@@ -3,8 +3,12 @@
 const section = document.querySelector(".section");
 const divContainer = document.querySelector(".div-container");
 
+const arrBlog= JSON.parse(localStorage.getItem("blogArry"));
+if(arrBlog !== null){
 
-for(let i=0; i<3;i++){
+console.log(arrBlog);
+
+for(let i=0; i<1;i++){
 
 const newDiv = document.createElement('div') ;
 newDiv.setAttribute("class", "div-element");
@@ -12,19 +16,19 @@ divContainer.appendChild(newDiv);
 
 const title=document.createElement('h3');
 title.setAttribute("class", "blog-title");
-title.innerHTML="Blog Title";
+title.innerHTML=arrBlog[i].title;
 newDiv.appendChild(title);
 
 const content= document.createElement('p');
 content.setAttribute("class", "blog-content");
-content.innerHTML="This is first b log that I am writing.";
+content.innerHTML=arrBlog[i].content;
 newDiv.appendChild(content);
 
 const author = document.createElement('span');
-author.innerHTML= "create by: Houssine Khay";
+author.innerHTML= arrBlog[i].userName;
 author.setAttribute("class", "blog-author");
 newDiv.appendChild(author);
 
-
+}
 }
 
