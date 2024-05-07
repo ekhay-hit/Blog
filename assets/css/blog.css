@@ -1,6 +1,7 @@
 header{
     display:flex;
     justify-content: end;
+    gap: 10px;
     align-items: center;
     padding-right: 20px;
     height: 60px;
@@ -9,6 +10,15 @@ header{
     /* delete this one */
     /* border-bottom: 2px solid black; */
     background-color: aqua;
+    
+  #btn-nav{
+    height: 35px;
+    width: 55px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(../images/arrow-light.PNG);
+    background-size: cover;
+    }
     
 }
 
