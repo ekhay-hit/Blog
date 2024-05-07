@@ -11,6 +11,7 @@ newDiv.setAttribute("class", "div-element");
 divContainer.appendChild(newDiv);
 
 const title=document.createElement('h3');
+title.setAttribute("class", "blog-title");
 title.innerHTML="Blog Title";
 newDiv.appendChild(title);
 
