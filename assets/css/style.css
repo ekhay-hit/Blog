@@ -93,11 +93,11 @@ header{
     margin-bottom: 2px;
 
     #btn-nav{
-        height: 35px;
+        height: 30px;
         width: 55px;
         background-color: white;
         border-radius: 50%;
-        background-image: url(../images/arrow-light.PNG);
+        background-image: url(../images/arrow-light.png);
         background-size: cover;
         }
     

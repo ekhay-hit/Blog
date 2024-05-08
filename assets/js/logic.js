@@ -8,10 +8,12 @@ const submitBtn = document.querySelector("#btn");
 const modeSwitcher = document.querySelector(".modeSwitcher");
 const body = document.querySelector("#bodyId");
 let mode = 'light';
-
-
-const blogArry = [];
-
+let blogArry;
+if (localStorage.getItem("blogArry")=== null){
+      blogArry=[];
+}else{
+  blogArry=JSON.parse(localStorage.getItem("blogArry"));
+}
 function storeBlog(){
     localStorage.setItem('blogArry',JSON.stringify(blogArry));
 };

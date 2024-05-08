@@ -3,12 +3,13 @@
 const section = document.querySelector(".section");
 const divContainer = document.querySelector(".div-container");
 
-const arrBlog= JSON.parse(localStorage.getItem("blogArry"));
+const arrBlog = JSON.parse(localStorage.getItem("blogArry"));
+console.log(arrBlog);
 if(arrBlog !== null){
 
 console.log(arrBlog);
 
-for(let i=0; i<1;i++){
+for(let i=0; i<arrBlog.length;i++){
 
 const newDiv = document.createElement('div') ;
 newDiv.setAttribute("class", "div-element");
