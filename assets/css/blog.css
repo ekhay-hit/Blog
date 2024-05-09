@@ -1,26 +1,25 @@
-.light{
+body{
+  margin: 0px 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
 
+
+.light{
   border: 2px solid black;
   border-radius: 5px;
   color:black;
   background-color: beige;
-
- header{
-  border-bottom: 2px solid black;
-  background-color: beige;
- }
- header{
+ 
+header{
   border-bottom: 2px solid black;
 }
  .section{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-
  }
 .div-element{
   background-color: rgb(252, 252, 215);
 }
- 
  
   footer{
       border-top: 2px solid beige;
@@ -48,8 +47,12 @@
  }
 .div-element{
   background-color: rgb(38, 72, 73);
+  border: 2px solid white;
 }
  
+.div-container{
+  border: 2px solid white;
+}
  
   footer{
       border-top: 2px solid rgb(38, 72, 73);
@@ -71,6 +74,7 @@ header {
   /* border-bottom: 2px solid black; */
  h2{
   margin-right: auto;
+  padding-left: 20px;
  }
 
   #btn-nav {
@@ -84,9 +88,22 @@ header {
 }
 
 footer {
-  display: flex;
-  height: 60px;
+  /* display: flex; */
+ 
   width: 100%;
+  a{
+    display: block;
+    text-decoration: none;
+    padding-left: 100px;
+    line-height: 30px;
+    font-size: 18px;
+    
+  }
+
+}
+
+#footer-signature{
+  text-align: center;
 }
 .modeSwitcher {
   height: 30px;
@@ -99,7 +116,7 @@ footer {
 .section {
   display: flex;
   justify-content: center;
-  height: 85vh;
+ 
   width: 100%;
 }
 
@@ -121,7 +138,7 @@ footer {
   border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
- 
+  
   .blog-title {
     display: flex;
     flex-grow: 1;
@@ -133,6 +150,7 @@ footer {
   .blog-content {
     display: flex;
     padding-left: 30px;
+    font-size: 20px;
     /* background-color: green; */
   }
 

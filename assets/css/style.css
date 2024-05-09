@@ -4,7 +4,7 @@
    
     border: 2px solid black;
     #btn{
-        background-color: white;
+        background-color: rgb(245, 245, 228);
         color: black;
     }
 
@@ -30,6 +30,14 @@
 
     footer{
         border-top: 2px solid black;
+    }
+
+    
+    input{
+        background-color: rgb(245, 245, 228);
+    }
+    textarea{
+        background-color: rgb(245, 245, 228);
     }
 }
 
