@@ -73,7 +73,7 @@ header {
     width: 55px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(../images/arrow-light.PNG);
+    background-image: url(../images/arrow-light.png);
     background-size: cover;
   }
 }

@@ -78,7 +78,7 @@ header{
     max-width: 100%;
     margin-bottom: 2px;
 /* nav bar link styling */
-    #btn-nav{
+#btn-nav{
         height: 30px;
         width: 55px;
         background-color: white;
